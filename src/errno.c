@@ -128,7 +128,7 @@ mrb_exxx_init(mrb_state *mrb, mrb_value self)
 }
 
 void
-mrb_mruby_errno_gem_init(mrb_state *mrb)
+mrb_pins_mruby_errno_gem_init(mrb_state *mrb)
 {
   struct RClass *e, *eno, *sce, *ste;
   mrb_value h, noerror;
@@ -170,6 +170,6 @@ mrb_mruby_errno_gem_init(mrb_state *mrb)
 }
 
 void
-mrb_mruby_errno_gem_final(mrb_state *mrb)
+mrb_pins_mruby_errno_gem_final(mrb_state *mrb)
 {
 }
